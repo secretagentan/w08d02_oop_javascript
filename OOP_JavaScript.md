@@ -281,7 +281,19 @@ class Car extends Vehicle {
 let c = new Car();
 c.getCompanyName();
 ```
+### Practice
+
+Can you write a class Animal with a constructor that has
+sound. The class Animal also has a method speak which returns 
+the sound.
+Now create a class Cat that inherits from Animal, with its own constructor
+function that takes a sound and name and has its own method sound.
 ```javascript
+//Output
+let superCat = new Cat("meowmeowmeow", "Cinder");
+superCat.speak()    // Cinder says meowmeowmeow
+console.log(superCat instanceof Animal) // True
+console.log(superCat instanceof Cat)    // True
 ```
 
 

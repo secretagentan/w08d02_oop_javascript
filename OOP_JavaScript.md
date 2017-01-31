@@ -10,7 +10,7 @@ and Functions in JavaScript.
 **Lets create a 'drone' class**
 
 ``` javascript
-Enter node
+Go to https://repl.it/
 ```
 
 ``` javascript
